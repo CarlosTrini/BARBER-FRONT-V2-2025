@@ -1,0 +1,40 @@
+:root {
+  --color-white: #f7f7f7;
+  --color-dark: #141414;
+  --color-coal:    #3a3a3a;  /* gris humo más definido */
+  --color-iron:    #4e4e4e;  /* gris oscuro con presencia */
+  --color-steel:   #7e7e7e;  /* gris acero con buena legibilidad */
+  --color-walnut:  #b35a2d;  /* marrón cálido profundo */
+  --color-leather: #d98739;  /* cuero tostado con fuerza */
+  --color-navy:    #4e6fb0;  /* azul marino vibrante pero sobrio */
+  --color-olive:   #7e9d35;  /* verde oliva más definido */
+  --color-orange:  #e4761f;  /* naranja potente pero natural */
+  --color-red:     #c84343;  /* rojo cálido con carácter */
+  --color-gray:    #c0c0c0;  /* gris claro con más peso */
+}
+
+body[data-theme="dark"] {
+  --color-white: #141414;
+  --color-dark: #f7f7f7;
+  --color-coal: #1a1a1a; /* negro carbón profundo*/
+  --color-iron: #2c2c2c; /* hierro oscuro*/
+  --color-steel: #4e4e4e; /* acero metálico oscuro*/
+  --color-walnut: #8a421a; /* marrón tostado fuerte*/
+  --color-leather: #b55a1a; /* cuero intenso*/
+  --color-navy: #223f7a; /* azul marino brillante*/
+  --color-olive: #4c6820; /* oliva más vivo*/
+  --color-orange: #e66000; /* naranja intenso*/
+  --color-red: #b71c1c; /* rojo sangre fuerte*/
+  --color-gray: #a0a0a0; /* gris medio brillante*/
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

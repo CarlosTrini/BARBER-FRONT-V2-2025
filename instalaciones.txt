@@ -1,0 +1,7 @@
+antDesign => npm install antd --save
+tailwind => npm install tailwindcss @tailwindcss/vite
+scss => npm install -D sass-embedded
+swiper =>   npm i swiper
+icons => npm install lucide-react
+react hook form => npm install react-hook-form
+uuidv4
