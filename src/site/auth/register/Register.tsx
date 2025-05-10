@@ -43,7 +43,7 @@ const Register = ({currentSwiper}) => {
               onSubmit={handleSubmit((data) => onSubmit(data as FormValuesT))}
               className="w-[80%] max-w-[350px]"
             >
-              <div className="mb-2">
+              <div className="inputs-container">
                 <Controller
                   name="name"
                   control={control}
@@ -69,7 +69,7 @@ const Register = ({currentSwiper}) => {
                 />
               </div>
 
-              <div className="mb-2">
+              <div className="inputs-container">
                 <Controller
                   name="username"
                   control={control}
@@ -95,7 +95,7 @@ const Register = ({currentSwiper}) => {
                 />
               </div>
 
-              <div className="mb-2">
+              <div className="inputs-container">
                 <Controller
                   name="password"
                   control={control}
@@ -122,7 +122,7 @@ const Register = ({currentSwiper}) => {
               </div>
 
 
-              <div className="mb-2">
+              <div className="inputs-container">
                 <Controller
                   name="email"
                   control={control}

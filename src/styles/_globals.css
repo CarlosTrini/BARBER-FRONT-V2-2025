@@ -1,4 +1,7 @@
 :root {
+   --color-dark-full:#141414;  /*full porque no va  a cambiar con el tema claro u oscuro*/
+  --color-gold: #FFD700;
+  --color-light: #f5f0f0; 
   --color-white: #f7f7f7;
   --color-dark: #141414;
   --color-coal:    #3a3a3a;  /* gris humo más definido */
@@ -7,13 +10,15 @@
   --color-walnut:  #b35a2d;  /* marrón cálido profundo */
   --color-leather: #d98739;  /* cuero tostado con fuerza */
   --color-navy:    #4e6fb0;  /* azul marino vibrante pero sobrio */
-  --color-olive:   #7e9d35;  /* verde oliva más definido */
+  --color-cream:   #FAF3DD;  /*  */
   --color-orange:  #e4761f;  /* naranja potente pero natural */
   --color-red:     #c84343;  /* rojo cálido con carácter */
   --color-gray:    #c0c0c0;  /* gris claro con más peso */
 }
 
 body[data-theme="dark"] {
+  --color-gold: #C5A100;
+  --color-light: #f3e8e8; 
   --color-white: #141414;
   --color-dark: #f7f7f7;
   --color-coal: #1a1a1a; /* negro carbón profundo*/
@@ -22,7 +27,7 @@ body[data-theme="dark"] {
   --color-walnut: #8a421a; /* marrón tostado fuerte*/
   --color-leather: #b55a1a; /* cuero intenso*/
   --color-navy: #223f7a; /* azul marino brillante*/
-  --color-olive: #4c6820; /* oliva más vivo*/
+  --color-cream: #746b60	; /* oliva más vivo*/
   --color-orange: #e66000; /* naranja intenso*/
   --color-red: #b71c1c; /* rojo sangre fuerte*/
   --color-gray: #a0a0a0; /* gris medio brillante*/
@@ -37,4 +42,26 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.b-zoom:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease-in-out;
+}
+
+
+.b-container-75{
+  width: 75%;
+}
+.b-container-80{
+  width: 80%;
+}
+.b-container-85{
+  width: 85%;
+}
+.b-container-90{
+  width: 90%;
+}
+.b-container-95{
+  width: 95%;
 }

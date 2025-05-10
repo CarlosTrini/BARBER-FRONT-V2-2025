@@ -12,11 +12,14 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
     "antd": "^5.24.9",
+    "aos": "^2.3.4",
     "lucide-react": "^0.507.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.2",
-    "swiper": "^11.2.6"
+    "react-router": "^7.5.3",
+    "swiper": "^11.2.6",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",

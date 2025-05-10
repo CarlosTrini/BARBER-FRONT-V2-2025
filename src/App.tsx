@@ -1,4 +1,4 @@
-import Auth from "./pages/auth/Auth";
+import Auth from "./site/auth/Auth";
 
 
 function App() {

@@ -5,19 +5,29 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-flow:column ;
     align-items: center;
     justify-content: center;
 }
 
+.back-home{
+    width: 90%;
+    text-align: end;
+    margin-bottom: 5px;
+}
+
 .auth-swiper-container {
     background-color: var(--color-coal);
-    max-width: 1200px;
+    box-shadow: 0px 0px 16px 0px var(--color-gray);
+    max-width: 1500px;
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
   }
+
+
 
 .active-bullet {
     border:1px solid var(--color-orange)!important;
@@ -25,8 +35,8 @@
     font-weight: bold;
     margin: 0 5px;
     border-radius: 5px;
-    width: 150px;
-    min-height: 30px;
+    max-width: 170px;
+    min-height: 30px;    
 }
 .bullets {
     background-color: transparent;
@@ -34,6 +44,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px 5px;
+    cursor:pointer;
 }
 
 .swiper-pagination{
@@ -45,6 +56,18 @@
     color: var(--color-navy);
     font-weight: bold;
 }
+
+
+.inputs-container {
+    margin-bottom: 15px;
+}
+
+@media (max-height: 970px) {
+    .inputs-container{
+      margin-bottom: 20px;
+    }
+  }
+
 
 
 /* ------------- NO SE HACEN ARCHIVOS APARTE PARA LOGIN Y ÑREGISTRO, YA QUE NO REQUIEREN MUCHO CSS */
