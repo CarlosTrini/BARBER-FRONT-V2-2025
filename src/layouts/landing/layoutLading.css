@@ -1,0 +1,13 @@
+
+
+.link-menu {
+    letter-spacing: 2px;
+}
+
+.link-menu-active, .link-menu:hover {
+    color: var(--color-gold);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+

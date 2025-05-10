@@ -1,3 +1,4 @@
 @import "tailwindcss";
+@import "./_fonts.css";
 @import "./_globals.css";
 @import "./_colorsAtts.css";

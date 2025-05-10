@@ -1,0 +1,3 @@
+.swiper-banner-container{
+     height: calc(100vh - 50px); /* 50 es lo que mide la sección donde estan icons de login, theme, cart... */
+}

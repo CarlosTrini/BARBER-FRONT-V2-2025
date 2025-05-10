@@ -4,4 +4,13 @@ scss => npm install -D sass-embedded
 swiper =>   npm i swiper
 icons => npm install lucide-react
 react hook form => npm install react-hook-form
+react router => npm i react-router
+AOS => npm install aos --save
+zustand => npm install zustand
 uuidv4
+
+
+
+
+
+https://www.scalperstudio.com/#
