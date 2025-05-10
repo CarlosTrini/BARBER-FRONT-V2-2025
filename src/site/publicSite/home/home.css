@@ -1,3 +1,25 @@
 .swiper-banner-container{
      height: calc(100vh - 50px); /* 50 es lo que mide la sección donde estan icons de login, theme, cart... */
 }
+/* .slogan-container{
+    
+} */
+.slogan-container p {
+    font-size:20px;        
+}
+
+@media (min-width: 768px) {
+    .slogan-container p {
+        font-size:24px;        
+    }
+}
+
+@media (min-width: 900px) {
+    .slogan-container p {
+        font-size:28px;        
+    }
+}
+
+.border-about {
+    border: 2px solid var(--color-coal);
+}

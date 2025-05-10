@@ -2,7 +2,7 @@
    --color-dark-full:#141414;  /*full porque no va  a cambiar con el tema claro u oscuro*/
   --color-gold: #FFD700;
   --color-light: #f5f0f0; 
-  --color-white: #f7f7f7;
+  --color-white: #f3eded;
   --color-dark: #141414;
   --color-coal:    #3a3a3a;  /* gris humo más definido */
   --color-iron:    #4e4e4e;  /* gris oscuro con presencia */
@@ -27,12 +27,15 @@ body[data-theme="dark"] {
   --color-walnut: #8a421a; /* marrón tostado fuerte*/
   --color-leather: #b55a1a; /* cuero intenso*/
   --color-navy: #223f7a; /* azul marino brillante*/
-  --color-cream: #746b60	; /* oliva más vivo*/
+  --color-cream: #b0a18f; /* oliva más vivo*/
   --color-orange: #e66000; /* naranja intenso*/
   --color-red: #b71c1c; /* rojo sangre fuerte*/
   --color-gray: #a0a0a0; /* gris medio brillante*/
 }
 
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -51,17 +54,34 @@ img {
 
 
 .b-container-75{
+  margin-right: auto;
+  margin-left: auto;
   width: 75%;
 }
 .b-container-80{
+  margin-right: auto;
+  margin-left: auto;
   width: 80%;
 }
 .b-container-85{
+  margin-right: auto;
+  margin-left: auto;
   width: 85%;
 }
 .b-container-90{
+  margin-right: auto;
+  margin-left: auto;
   width: 90%;
 }
 .b-container-95{
+  margin-right: auto;
+  margin-left: auto;
   width: 95%;
+}
+
+.sections-title {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
 }
