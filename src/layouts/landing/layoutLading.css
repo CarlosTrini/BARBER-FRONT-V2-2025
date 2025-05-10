@@ -2,6 +2,7 @@
 
 .link-menu {
     letter-spacing: 2px;
+    font-style: italic;
 }
 
 .link-menu-active, .link-menu:hover {

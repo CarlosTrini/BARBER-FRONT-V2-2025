@@ -1,3 +1,4 @@
+.b-bg-dark-full{background-color: var(--color-dark-full);}
 .b-bg-gold{background-color: var(--color-gold);}
 .b-bg-light{background-color: var(--color-light);}
 .b-bg-white{background-color: var(--color-white);}
@@ -13,6 +14,7 @@
 .b-bg-red{background-color: var(--color-red);}
 .b-bg-gray{background-color: var(--color-gray);}
 
+.b-stroke-dark-full{stroke: var(--color-dark-full);}
 .b-stroke-gold{stroke: var(--color-gold);}
 .b-stroke-light{stroke: var(--color-light);}
 .b-stroke-white{stroke: var(--color-white);}
@@ -28,6 +30,7 @@
 .b-stroke-red{stroke: var(--color-red);}
 .b-stroke-gray{stroke: var(--color-gray);}
 
+.b-text-dark-full{color: var(--color-dark-full);}
 .b-text-gold{color: var(--color-gold);}
 .b-text-light{color: var(--color-light);}
 .b-text-white{color: var(--color-white);}

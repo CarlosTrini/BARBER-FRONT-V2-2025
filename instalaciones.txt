@@ -7,10 +7,15 @@ react hook form => npm install react-hook-form
 react router => npm i react-router
 AOS => npm install aos --save
 zustand => npm install zustand
+axios =>  npm install axios 
+
+
 uuidv4
 
+json server => npm install json-server  (para simulate test de pruebas a un server)
 
 
+TODO: AGREGAR NOTA DE ALERTA DE NO PODER UTILIZAR INTERNET EXPLORER... POR SI LAS DUDAS..
 
 
 https://www.scalperstudio.com/#

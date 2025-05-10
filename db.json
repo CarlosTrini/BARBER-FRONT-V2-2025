@@ -1,0 +1,104 @@
+{
+  "services": [
+    {
+      "packageName": "Paquetes",
+      "services": [
+        {
+          "name": "SCALPER GROOMING",
+          "description": "Corte de cabello + afeitado o recorte de barba",
+          "price": 595
+        },
+        {
+          "name": "SCALPER SPA",
+          "description": "Manicure + pedicure",
+          "price": 450
+        },
+        {
+          "name": "SCALPER MAN",
+          "description": "Corte de cabello + arreglo de barba + facial",
+          "price": 800
+        }
+      ]
+    },
+    {
+      "packageName": "Grooming",
+      "services": [
+        {
+          "name": "CORTE DE CABELLO",
+          "description": "",
+          "price": 380
+        },
+        {
+          "name": "CORTE DE NIÑO",
+          "description": "",
+          "price": 320
+        },
+        {
+          "name": "GRECA SENCILLA",
+          "description": "",
+          "price": 500
+        },
+        {
+          "name": "LIMPIEZA DE CONTORNO",
+          "description": "",
+          "price": 180
+        },
+        {
+          "name": "AFEITADO DE CABEZA",
+          "description": "",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "packageName": "SPA",
+      "services": [
+        {
+          "name": "MANICURE",
+          "description": "",
+          "price": 200
+        },
+        {
+          "name": "PEDICURE",
+          "description": "",
+          "price": 330
+        },
+        {
+          "name": "LIMPIEZA FACIAL",
+          "description": "Tratamiento exfoliante humectante en el rostro",
+          "price": 250
+        },
+        {
+          "name": "DEPILACIÓN",
+          "description": "Ceja, nariz y oído",
+          "price": 180
+        },
+        {
+          "name": "MASAJE ANTI - ESTRÉS",
+          "description": "Masaje derma calmante con guante Oster",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "packageName": "Barba",
+      "services": [
+        {
+          "name": "RECORTE ALINEADO DE BARBA O BIGOTE",
+          "description": "Preshave, espuma caliente, toalla fría y caliente, aromaterapia, aftershave y masaje dermo calmante",
+          "price": 340
+        },
+        {
+          "name": "AFEITADO DE BARBA",
+          "description": "Preshave, espuma caliente, pasada de navaja, toalla fría y caliente, aromaterapia, aftershave y masaje dermo calmante",
+          "price": 340
+        },
+        {
+          "name": "COLORACIÓN",
+          "description": "Coloración de barba o bigote",
+          "price": 300
+        }
+      ]
+    }
+  ]
+}
