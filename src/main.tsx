@@ -6,6 +6,7 @@ import routes from "./routes/routes.tsx";
 import "./styles/indexApp.css";
 import "swiper/swiper-bundle.css";
 import { initTheme } from "./utils/initOptions.ts";
+import { ToastContainer } from "react-toastify";
 // import "antd/dist/reset.css";
 // import App from "./App.tsx";
 
@@ -21,5 +22,6 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <App /> */}
     <RouterProvider router={router} />
+    <ToastContainer />
   </StrictMode>
 );

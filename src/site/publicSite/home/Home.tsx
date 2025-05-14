@@ -1,6 +1,7 @@
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import useThemeStore from '../../../context/themeContext';
+import { Bounce, toast } from 'react-toastify';
 import Services from './components/Services';
 
 import SlideOne from "../../../assets/img/front-1.png";
@@ -91,6 +92,22 @@ const Home = () => {
                     <Services />
                 </div>
             </section>
+
+            <button
+             onClick={() => {
+                toast.success('🦄 Wow so easy!', {
+position: "top-center",
+autoClose: 5000,
+hideProgressBar: false,
+closeOnClick: false,
+pauseOnHover: true,
+draggable: true,
+progress: undefined,
+theme: "dark",
+transition: Bounce,
+});
+             }}
+            >toast</button>
         </>
     )
 }
