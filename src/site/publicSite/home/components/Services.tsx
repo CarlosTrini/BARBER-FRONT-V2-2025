@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllServices } from "../../../../services/barberServices";
+ import { getAllServices } from "../../../../services/servicesBarberShop";
 
 
 const Services = () => {
