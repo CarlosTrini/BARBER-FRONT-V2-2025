@@ -1,17 +1,23 @@
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
-import useThemeStore from '../../../context/themeContext';
+import useThemeStore from '@context/themeContext';
 import { Bounce, toast } from 'react-toastify';
-import Services from './components/Services';
+import './home.module.css';
+import Services from './sections/services/Services';
+import Products from './sections/products/Products';
+import Locations from './sections/locations/Locations';
 
-import SlideOne from "../../../assets/img/front-1.png";
-import SlideTwo from "../../../assets/img/front-2.png";
-import SlideThree from "../../../assets/img/front-3.png";
-import LogoDark from "../../../assets/img/logo-dark.png";
-import LogoLight from "../../../assets/img/logo-light.png";
-import ChainImg from "../../../assets/img/chair-2.jpg";
-import SccissorsImg from "../../../assets/img/sccissors-2.jpg";
-import './home.css';
+
+import SlideOne from "@assets/img/front-1.png";
+import SlideTwo from "@assets/img/front-2.png";
+import SlideThree from "@assets/img/front-3.png";
+import LogoDark from "@assets/img/logo-dark.png";
+import LogoLight from "@assets/img/logo-light.png";
+import ChainImg from "@assets/img/chair-2.jpg";
+import SccissorsImg from "@assets/img/sccissors-2.jpg";
+import Gallery from './sections/gallery/Gallery';
+import { initIntersectionHeader } from '@utils/initOptions';
+import { useEffect } from 'react';
 
 const imgsSlides = [
     { imgUrl: SlideOne, name: 'Slide 1' },
@@ -23,6 +29,10 @@ const imgsSlides = [
 const Home = () => {
 
     const theme = useThemeStore(store => store.theme);
+
+    useEffect(() => {
+        initIntersectionHeader();
+    }, []);
 
     return (
         <>
@@ -54,7 +64,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='b-bg-cream py-3 slogan-container'>
+            <section className='b-bg-cream py-3 slogan-container' id='sloganSection'>
                 <div className='b-container-80 mx-auto flex md:gap-3 flex-col md:flex-row items-center md:items-start md:justify-center'>
                     {/* <p className='b-text-cream  font-bold text-start'>Clásico de origen. Moderno por evolución...</p> */}
                     <div className=' h-[100px]  w-[200px] my-4  bg-indigo-500 overflow-hidden rounded-md '>
@@ -84,30 +94,76 @@ const Home = () => {
             </section>
 
             <section id='servicesSection' className='b-bg-dark-full'>
-                <div className='b-container-85'>
+                <div className='b-container-85 py-[60px]'>
 
-                    <div className='w-[250px] mx-auto'>
-                        <h2 className='sections-title b-text-cream py-5'>Servicios</h2>
+                    <div className=' mx-auto '>
+                        <h2 className='sections-title b-text-cream pt-[30px]'>Servicios</h2>
                     </div>
                     <Services />
                 </div>
             </section>
 
-            <button
-             onClick={() => {
-                toast.success('🦄 Wow so easy!', {
-position: "top-center",
-autoClose: 5000,
-hideProgressBar: false,
-closeOnClick: false,
-pauseOnHover: true,
-draggable: true,
-progress: undefined,
-theme: "dark",
-transition: Bounce,
-});
-             }}
-            >toast</button>
+            <section className='b-bg-iron'>
+                <div className='b-container-95 py-[60px]'>
+
+                    <div className=' mx-auto'>
+                        <h2 className='sections-title b-text-cream pt-[30px]'>Sucursales</h2>
+                    </div>
+                    <Locations />
+                </div>
+
+            </section>
+
+            <section className='b-bg-white'>
+                <div className='b-container-95 py-[60px]'>
+
+                    <div className=' mx-auto'>
+                        <h2 className='sections-title b-text-steel pt-[30px]'>Nuestros productos</h2>
+                    </div>
+                    <Products />
+                </div>
+
+            </section>
+
+            <section className='b-bg-iron'>
+                <div className='b-container-95 py-[60px]'>
+
+                    <div className=' mx-auto'>
+                        <h2 className='sections-title b-text-light pt-[30px]'>Galería</h2>
+                    </div>
+                    <Gallery />
+                </div>
+
+            </section>
+
+            <footer className='h-[200px] b-bg-steel flex items-center justify-center'>
+                <div className='flex items-center justify-center'>
+                    <div className=' h-[150px]  w-[400px]'>
+                        <img src={theme == 'light' ? LogoDark : LogoLight} alt={'imagen logotipo'} />
+                    </div>
+                </div>
+
+            </footer>
+            <div className='b-bg-dark-full'>
+                <p className=' text-center b-text-light b-font-weight-700 '>Carlos Trinidad - 2025</p>
+            </div>
+
+
+            {/* <button
+                onClick={() => {
+                    toast.success('🦄 Wow so easy!', {
+                        position: "top-center",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: false,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "dark",
+                        transition: Bounce,
+                    });
+                }}
+            >toast</button> */}
         </>
     )
 }

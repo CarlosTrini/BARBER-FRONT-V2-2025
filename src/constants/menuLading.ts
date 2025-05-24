@@ -7,7 +7,7 @@ export type menuLandingT = {
 
 export const menuLanding = [
     { label: 'Inicio', path: '/' },
-    { label: 'Servicios', path: '/services' },
+    { label: 'Servicios', path: '#servicesSection' },
     {
         label: 'Sucursales',
         path: '/branches',

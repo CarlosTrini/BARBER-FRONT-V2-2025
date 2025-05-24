@@ -1,36 +1,40 @@
 :root {
-   --color-dark-full:#141414;  /*full porque no va  a cambiar con el tema claro u oscuro*/
-  --color-gold: #FFD700;
-  --color-light: #f5f0f0; 
-  --color-white: #f3eded;
-  --color-dark: #141414;
-  --color-coal:    #3a3a3a;  /* gris humo más definido */
-  --color-iron:    #4e4e4e;  /* gris oscuro con presencia */
-  --color-steel:   #7e7e7e;  /* gris acero con buena legibilidad */
-  --color-walnut:  #b35a2d;  /* marrón cálido profundo */
-  --color-leather: #d98739;  /* cuero tostado con fuerza */
-  --color-navy:    #4e6fb0;  /* azul marino vibrante pero sobrio */
-  --color-cream:   #FAF3DD;  /*  */
-  --color-orange:  #e4761f;  /* naranja potente pero natural */
-  --color-red:     #c84343;  /* rojo cálido con carácter */
-  --color-gray:    #c0c0c0;  /* gris claro con más peso */
+  --color-dark-full: rgb(20, 20, 20);  /*full porque no va  a cambiar con el tema claro u oscuro*/
+  --color-gold: rgb(255, 215, 0);
+  --color-light: rgb(245, 240, 240); 
+  --color-white: rgb(243, 237, 237);
+  --color-dark: rgb(20, 20, 20);
+  --color-coal:    rgb(58, 58, 58);  /* gris humo más definido */
+  --color-iron:    rgb(78, 78, 78);  /* gris oscuro con presencia */
+  --color-steel:   rgb(126, 126, 126);  /* gris acero con buena legibilidad */
+  --color-walnut:  rgb(179, 90, 45);  /* marrón cálido profundo */
+  --color-leather: rgb(217, 135, 57);  /* cuero tostado con fuerza */
+  --color-navy:    rgb(78, 111, 176);  /* azul marino vibrante pero sobrio */
+  --color-cream:   rgb(250, 243, 221);  /*  */
+  --color-orange:  rgb(228, 118, 31);  /* naranja potente pero natural */
+  --color-red:     rgb(200, 67, 67);  /* rojo cálido con carácter */
+  --color-gray:    rgb(192, 192, 192);  /* gris claro con más peso */
 }
 
 body[data-theme="dark"] {
-  --color-gold: #C5A100;
-  --color-light: #f3e8e8; 
-  --color-white: #141414;
-  --color-dark: #f7f7f7;
-  --color-coal: #1a1a1a; /* negro carbón profundo*/
-  --color-iron: #2c2c2c; /* hierro oscuro*/
-  --color-steel: #4e4e4e; /* acero metálico oscuro*/
-  --color-walnut: #8a421a; /* marrón tostado fuerte*/
-  --color-leather: #b55a1a; /* cuero intenso*/
-  --color-navy: #223f7a; /* azul marino brillante*/
-  --color-cream: #b0a18f; /* oliva más vivo*/
-  --color-orange: #e66000; /* naranja intenso*/
-  --color-red: #b71c1c; /* rojo sangre fuerte*/
-  --color-gray: #a0a0a0; /* gris medio brillante*/
+  --color-gold: rgb(197, 161, 0);
+  --color-light: rgb(243, 232, 232); 
+  --color-white: rgb(20, 20, 20);
+  --color-dark: rgb(247, 247, 247);
+  --color-coal: rgb(26, 26, 26); /* negro carbón profundo*/
+  --color-iron: rgb(44, 44, 44); /* hierro oscuro*/
+  --color-steel: rgb(78, 78, 78); /* acero metálico oscuro*/
+  --color-walnut: rgb(138, 66, 26); /* marrón tostado fuerte*/
+  --color-leather: rgb(181, 90, 26); /* cuero intenso*/
+  --color-navy: rgb(34, 63, 122); /* azul marino brillante*/
+  --color-cream: rgb(176, 161, 143); /* oliva más vivo*/
+  --color-orange: rgb(230, 96, 0); /* naranja intenso*/
+  --color-red: rgb(183, 28, 28); /* rojo sangre fuerte*/
+  --color-gray: rgb(160, 160, 160); /* gris medio brillante*/
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body{

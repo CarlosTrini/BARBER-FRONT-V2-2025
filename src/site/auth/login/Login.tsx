@@ -3,15 +3,16 @@ import { UserCircle, KeyRound } from "lucide-react";
 import { useForm, Controller } from "react-hook-form";
 import ImgLogin from "../../../assets/img/barber.jpg";
 import ImgLoginInputs from "../../../assets/img/barber-login.png";
-import "../auth.css";
+import css from "../auth.module.css";
 import {useEffect } from "react";
+import { SlideNameT } from "../Auth";
 
 type FormValuesT = {
   username: string;
   password: string;
 };
 
-const Login = ({currentSwiper}) => {
+const Login = ({currentSwiper}: {currentSwiper: SlideNameT}) => {
   const { control, handleSubmit, reset, clearErrors } = useForm();
 
   const onSubmit = (data: FormValuesT) => {
@@ -19,7 +20,7 @@ const Login = ({currentSwiper}) => {
   };
 
   useEffect(() => {
-    if(currentSwiper === 'login'){
+    if(currentSwiper === "login"){
         reset({
             username: "",
             password: "",

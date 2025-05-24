@@ -1,0 +1,163 @@
+.b-button {
+  padding: 0.5rem 0.8rem;
+  /* color: var(--color-cream)!important; */
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+/* =========================================================>>>>>>>> COLORES  DE BOTÓN */
+
+.b-button-color-dark-full {
+  background-color: var(--color-dark-full);
+}
+.b-button-color-dark-full:hover {
+  background-color: color-mix(in srgb, var(--color-dark-full) 85%, black);
+}
+.b-button-color-dark-full:active {
+  background-color: color-mix(in srgb, var(--color-dark-full) 75%, black);
+}
+
+.b-button-color-gold {
+  background-color: var(--color-gold);
+}
+.b-button-color-gold:hover {
+  background-color: color-mix(in srgb, var(--color-gold) 85%, black);
+}
+.b-button-color-gold:active {
+  background-color: color-mix(in srgb, var(--color-gold) 75%, black);
+}
+
+.b-button-color-light {
+  background-color: var(--color-light);
+}
+.b-button-color-light:hover {
+  background-color: color-mix(in srgb, var(--color-light) 85%, black);
+}
+.b-button-color-light:active {
+  background-color: color-mix(in srgb, var(--color-light) 75%, black);
+}
+
+.b-button-color-white {
+  background-color: var(--color-white);
+}
+.b-button-color-white:hover {
+  background-color: color-mix(in srgb, var(--color-white) 85%, black);
+}
+.b-button-color-white:active {
+  background-color: color-mix(in srgb, var(--color-white) 75%, black);
+}
+
+.b-button-color-dark {
+  background-color: var(--color-dark);
+}
+.b-button-color-dark:hover {
+  background-color: color-mix(in srgb, var(--color-dark) 85%, black);
+}
+.b-button-color-dark:active {
+  background-color: color-mix(in srgb, var(--color-dark) 75%, black);
+}
+
+.b-button-color-coal {
+  background-color: var(--color-coal);
+}
+.b-button-color-coal:hover {
+  background-color: color-mix(in srgb, var(--color-coal) 85%, black);
+}
+.b-button-color-coal:active {
+  background-color: color-mix(in srgb, var(--color-coal) 75%, black);
+}
+
+.b-button-color-iron {
+  background-color: var(--color-iron);
+}
+.b-button-color-iron:hover {
+  background-color: color-mix(in srgb, var(--color-iron) 85%, black);
+}
+.b-button-color-iron:active {
+  background-color: color-mix(in srgb, var(--color-iron) 75%, black);
+}
+
+.b-button-color-steel {
+  background-color: var(--color-steel);
+}
+.b-button-color-steel:hover {
+  background-color: color-mix(in srgb, var(--color-steel) 85%, black);
+}
+.b-button-color-steel:active {
+  background-color: color-mix(in srgb, var(--color-steel) 75%, black);
+}
+
+.b-button-color-walnut {
+  background-color: var(--color-walnut);
+}
+.b-button-color-walnut:hover {
+  background-color: color-mix(in srgb, var(--color-walnut) 85%, black);
+}
+.b-button-color-walnut:active {
+  background-color: color-mix(in srgb, var(--color-walnut) 75%, black);
+}
+
+.b-button-color-leather {
+  background-color: var(--color-leather);
+}
+.b-button-color-leather:hover {
+  background-color: color-mix(in srgb, var(--color-leather) 85%, black);
+}
+.b-button-color-leather:active {
+  background-color: color-mix(in srgb, var(--color-leather) 75%, black);
+}
+
+.b-button-color-navy {
+  background-color: var(--color-navy);
+}
+.b-button-color-navy:hover {
+  background-color: color-mix(in srgb, var(--color-navy) 85%, black);
+}
+.b-button-color-navy:active {
+  background-color: color-mix(in srgb, var(--color-navy) 75%, black);
+}
+
+.b-button-color-cream {
+  background-color: var(--color-cream);
+}
+.b-button-color-cream:hover {
+  background-color: color-mix(in srgb, var(--color-cream) 85%, black);
+}
+.b-button-color-cream:active {
+  background-color: color-mix(in srgb, var(--color-cream) 75%, black);
+}
+
+.b-button-color-orange {
+  background-color: var(--color-orange);
+}
+.b-button-color-orange:hover {
+  background-color: color-mix(in srgb, var(--color-orange) 85%, black);
+}
+.b-button-color-orange:active {
+  background-color: color-mix(in srgb, var(--color-orange) 75%, black);
+}
+
+.b-button-color-red {
+  background-color: var(--color-red);
+}
+.b-button-color-red:hover {
+  background-color: color-mix(in srgb, var(--color-red) 85%, black);
+}
+.b-button-color-red:active {
+  background-color: color-mix(in srgb, var(--color-red) 75%, black);
+}
+
+.b-button-color-gray {
+  background-color: var(--color-gray);
+}
+.b-button-color-gray:hover {
+  background-color: color-mix(in srgb, var(--color-gray) 85%, black);
+}
+.b-button-color-gray:active {
+  background-color: color-mix(in srgb, var(--color-gray) 75%, black);
+}

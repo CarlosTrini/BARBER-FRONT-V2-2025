@@ -15,10 +15,6 @@ const routes = [
                 element: <Home />,
             },
             {
-                path: "services",
-                element: <div>Services</div>,
-            },
-            {
                 path: "branches",
                 children: [
                     {
@@ -43,22 +39,9 @@ export default routes;
 
 
 
-// const router = createBrowserRouter([
-//     {
-//       Component: MainLayout,
-//       children: [
-//         { index: true, Component: Home },         // /
-//         { path: "login", Component: Auth },       // /login
-//         { path: "register", Component: Register },// /register
-//       ],
-//     },
-//     {
-//       path: "cms",
-//       Component: AdminLayout,
-//       children: [
-//         { index: true, Component: Dashboard },     // /cms
-//         { path: "users", Component: Users },       // /cms/users
-//         { path: "settings", Component: Settings }, // /cms/settings
-//       ],
-//     },
-//   ])
+// export routesSystem = {
+//     index: '/',
+//     services: '/services',
+//     branches: '/brances',
+//     branches: 
+// }

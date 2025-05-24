@@ -3,15 +3,16 @@ import { UserCircle, User, KeyRound } from "lucide-react";
 import { useForm, Controller } from "react-hook-form";
 import ImgRegister from "../../../assets/img/barber-lamp.jpg";
 import ImgLoginInputs from "../../../assets/img/barber-pole.png";
-import "../auth.css";
+import styles from  "../auth.module.css";
 import { useEffect } from "react";
+import { SlideNameT } from "../Auth";
 
 type FormValuesT = {
   username: string;
   password: string;
 };
 
-const Register = ({currentSwiper}) => {
+const Register = ({currentSwiper}: {currentSwiper: SlideNameT}) => {
   const { control, handleSubmit, reset, clearErrors} = useForm();
 
   const onSubmit = (data: FormValuesT) => {
@@ -43,7 +44,7 @@ const Register = ({currentSwiper}) => {
               onSubmit={handleSubmit((data) => onSubmit(data as FormValuesT))}
               className="w-[80%] max-w-[350px]"
             >
-              <div className="inputs-container">
+              <div className={`${styles["inputs-container"]}`}>
                 <Controller
                   name="name"
                   control={control}
@@ -69,7 +70,7 @@ const Register = ({currentSwiper}) => {
                 />
               </div>
 
-              <div className="inputs-container">
+              <div className={`${styles["inputs-container"]}`}>
                 <Controller
                   name="username"
                   control={control}
@@ -95,7 +96,7 @@ const Register = ({currentSwiper}) => {
                 />
               </div>
 
-              <div className="inputs-container">
+              <div className={`${styles["inputs-container"]}`}>
                 <Controller
                   name="password"
                   control={control}
@@ -122,7 +123,7 @@ const Register = ({currentSwiper}) => {
               </div>
 
 
-              <div className="inputs-container">
+              <div className={`${styles["inputs-container"]}`}>
                 <Controller
                   name="email"
                   control={control}

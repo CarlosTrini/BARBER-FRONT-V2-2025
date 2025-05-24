@@ -3,17 +3,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
 
-import "./auth.css";
+import styles from "./auth.module.css";
 import Login from "./login/Login";
 import Register from "./register/Register";
 import { Button } from "antd";
 import { Link } from "react-router";
 
+export type SlideNameT = 'login' | 'register';
+
 const Auth = () => {
   const pagination = {
     clickable: true,
-    bulletActiveClass: "active-bullet",
-    bulletClass: "bullets",
+    bulletActiveClass: styles['active-bullet'],
+    bulletClass: styles["bullets"],
     renderBullet: function (index: number, className: string) {
       const slideOptions = [
         '<span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-icon lucide-circle-user b-stroke-orange"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3"/><path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/></svg> </span>  <p class="ms-2 mb-0">Iniciar Sesión</p>',
@@ -25,12 +27,12 @@ const Auth = () => {
     },
   };
 
-  const [currentSwiper, setCurrentSwiper] = useState<'login' | 'register'>('login');
+  const [currentSwiper, setCurrentSwiper] = useState<SlideNameT>('login');
 
   return (
     <>
-      <section className="auth-container">
-          <div className="back-home">
+      <section className={`${styles['auth-container']}`}>
+          <div className={`${styles['back-home']}`}>
             <Button  ghost size="small" color="default" shape="round" className="border-none ">
               <Link to="/">
                 <i className="fas fa-house me-2" ></i>
@@ -39,7 +41,7 @@ const Auth = () => {
               
             </Button>
           </div>
-        <div className="auth-swiper-container">
+        <div className={`${styles['auth-swiper-container']}`}>
           <Swiper
             pagination={pagination}
             modules={[Pagination]}

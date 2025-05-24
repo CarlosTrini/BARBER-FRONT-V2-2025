@@ -12,7 +12,6 @@ react toatify => npm i react-toastify
 uuid => npm install uuid
 json server => npm install json-server  (para simulate test de pruebas a un server)
 
-
 TODO: AGREGAR NOTA DE ALERTA DE NO PODER UTILIZAR INTERNET EXPLORER... POR SI LAS DUDAS..
 
 

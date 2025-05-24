@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import routes from "./routes/routes.tsx";
 import "./styles/indexApp.css";
 import "swiper/swiper-bundle.css";
-import { initTheme } from "./utils/initOptions.ts";
+import {  initTheme } from "./utils/initOptions.ts";
 import { ToastContainer } from "react-toastify";
 // import "antd/dist/reset.css";
 // import App from "./App.tsx";
